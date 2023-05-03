@@ -1,0 +1,21 @@
+{
+  "name": "ui-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@": "lib/src"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
